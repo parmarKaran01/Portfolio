@@ -1,0 +1,55 @@
+.container {
+  width: 90%;
+  /* background-color: aqua; */
+  margin-left: 5vw;
+}
+
+.title {
+  font-size: 2.5rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-left: 5vw;
+}
+
+.multi {
+  color: rgb(255, 64, 129);
+}
+
+.projectContainer {
+  height: fit-content;
+  /* background-color: beige; */
+
+  margin-top: 5vh;
+}
+
+.detailButton {
+  font-size: 1rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 1rem;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(1, 10, 19);
+  border: 2px solid rgb(255, 64, 129);
+  color: white;
+}
+
+.companyWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.linksWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: underline;
+  padding-top: 1rem;
+  /* color: rgb(1, 10, 19); */
+}
