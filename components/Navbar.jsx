@@ -67,7 +67,7 @@ const Navbar = () => {
           <div className={styles.link}>
           <Link
               href={
-                "https://drive.google.com/file/d/12ZSzmm77KIx4tH09Ai4-rN6OicfPrQ-S/view?usp=drive_link"
+                "https://drive.google.com/file/d/1wxghsTI7o8X-XOJInCLKMy5vAR55MQ-u/view?usp=drive_link"
               }
               download="Karan`s Resume"
               target="_blank"
