@@ -53,16 +53,21 @@ const ProjectList = () => {
                   </h4>
                 </div>
                 <p>{element.description}</p>
-                {element.isProject ? (
-                  <div className={styles.linksWrapper}>
+                <div className={styles.linksWrapper}>
+                  {element.isProject ? (
                     <motion.div whileHover={{ scale: 1.2 }}>
-                      <IconGithub />
+                      <Link target="_blank" href={element.githublink}>
+                        <IconGithub />
+                      </Link>
                     </motion.div>
+                  ) : null}
+
+                  {element.livelink ? (
                     <Link target="_blank" href={element.livelink}>
-                      {element.title}
+                      {element.isProject ? element.title : element.company}
                     </Link>
-                  </div>
-                ) : null}
+                  ) : null}
+                </div>
               </VerticalTimelineElement>
             );
           })}

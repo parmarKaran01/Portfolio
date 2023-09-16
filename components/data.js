@@ -5,6 +5,7 @@ export const data = [
     location: "Remote",
     date: "August-2023 - Present",
     company: "Mercle.xyz",
+    livelink: "https://app.mercle.xyz/",
     isProject: false,
     description:
       "Translated complex design wire frames to pixel perfect webpages and built complex animations using scss and Reactjs creating visually appealing, responsive user interfaces. Leveraged knowledge of cryptocurrencies, particularly in the DeFi and Ethereum space, to contribute effectively to blockchain-powered applications.",
@@ -15,6 +16,7 @@ export const data = [
     location: "Remote",
     date: "April-2023 - Present",
     company: "Convin.ai",
+    livelink: "https://convin.ai/",
     isProject: false,
     description:
       "Contributing in the migration of a Javascript/AntDesign product to Typescript/Material UI, developing pixel-perfect webpages with custom Javascript in Webflow, and utilizing React, Redux Toolkit, RTK query, Material UI, Tailwind CSS, and Webflow.",
